@@ -1,0 +1,357 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local MainBorder = Instance.new("Frame")
+local Border = Instance.new("Frame")
+local nextUpdate = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local cancel = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local nextUpdate_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TrollTab = Instance.new("Frame")
+local Text = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+local Text_2 = Instance.new("TextLabel")
+local nextUpdate_3 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local nextUpdate_4 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local RMD = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local RC = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local LP = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local STNZ = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Background.Name = "Background"
+Background.Parent = ScreenGui
+Background.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Background.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Background.BorderSizePixel = 0
+Background.Position = UDim2.new(0.203447402, 0, 0.235823572, 0)
+Background.Size = UDim2.new(0, 582, 0, 335)
+
+MainBorder.Name = "MainBorder"
+MainBorder.Parent = ScreenGui
+MainBorder.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+MainBorder.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainBorder.BorderSizePixel = 0
+MainBorder.Position = UDim2.new(0.203447402, 0, 0.235823572, 0)
+MainBorder.Size = UDim2.new(0, 582, 0, 24)
+
+Border.Name = "Border"
+Border.Parent = MainBorder
+Border.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+Border.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Border.BorderSizePixel = 0
+Border.Position = UDim2.new(0, 0, 12.9346924, 0)
+Border.Size = UDim2.new(0, 581, 0, 24)
+
+nextUpdate.Name = "nextUpdate"
+nextUpdate.Parent = MainBorder
+nextUpdate.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate.BorderColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate.BorderSizePixel = 0
+nextUpdate.Position = UDim2.new(0.0255202465, 0, 1.94376624, 0)
+nextUpdate.Size = UDim2.new(0, 106, 0, 39)
+
+UICorner.Parent = nextUpdate
+
+cancel.Name = "cancel"
+cancel.Parent = MainBorder
+cancel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cancel.BackgroundTransparency = 1.000
+cancel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cancel.BorderSizePixel = 0
+cancel.Position = UDim2.new(0.936119676, 0, -0.0566507988, 0)
+cancel.Size = UDim2.new(0, 37, 0, 24)
+cancel.Font = Enum.Font.Sarpanch
+cancel.Text = "x"
+cancel.TextColor3 = Color3.fromRGB(194, 194, 194)
+cancel.TextScaled = true
+cancel.TextSize = 14.000
+cancel.TextWrapped = true
+
+close.Name = "close"
+close.Parent = MainBorder
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.863260508, 0, -0.35935846, 0)
+close.Size = UDim2.new(0, 42, 0, 37)
+close.Font = Enum.Font.Sarpanch
+close.Text = "-"
+close.TextColor3 = Color3.fromRGB(194, 194, 194)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+nextUpdate_2.Name = "nextUpdate"
+nextUpdate_2.Parent = MainBorder
+nextUpdate_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_2.BorderColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_2.BorderSizePixel = 0
+nextUpdate_2.Position = UDim2.new(0.207650825, 0, 2.48543286, 0)
+nextUpdate_2.Size = UDim2.new(0, 106, 0, 26)
+
+UICorner_2.Parent = nextUpdate_2
+
+TrollTab.Name = "TrollTab"
+TrollTab.Parent = MainBorder
+TrollTab.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TrollTab.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TrollTab.BorderSizePixel = 0
+TrollTab.Position = UDim2.new(0.0255202465, 0, 3.23619843, 0)
+TrollTab.Size = UDim2.new(0, 381, 0, 221)
+
+Text.Name = "Text"
+Text.Parent = TrollTab
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.00884977728, 0, -0.111290701, 0)
+Text.Size = UDim2.new(0, 98, 0, 13)
+Text.Font = Enum.Font.JosefinSans
+Text.Text = "Troll"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
+
+UICorner_3.Parent = TrollTab
+
+TextBox.Parent = MainBorder
+TextBox.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0657881349, 0, 8.83359528, 0)
+TextBox.Size = UDim2.new(0, 343, 0, 50)
+TextBox.Font = Enum.Font.Unknown
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 4)
+UICorner_4.Parent = TextBox
+
+Text_2.Name = "Text"
+Text_2.Parent = MainBorder
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.BackgroundTransparency = 1.000
+Text_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text_2.BorderSizePixel = 0
+Text_2.Position = UDim2.new(0.193839893, 0, 7.5024972, 0)
+Text_2.Size = UDim2.new(0, 195, 0, 18)
+Text_2.Font = Enum.Font.JosefinSans
+Text_2.Text = "(Enter User)"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextScaled = true
+Text_2.TextSize = 14.000
+Text_2.TextWrapped = true
+
+nextUpdate_3.Name = "nextUpdate"
+nextUpdate_3.Parent = MainBorder
+nextUpdate_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_3.BorderColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_3.BorderSizePixel = 0
+nextUpdate_3.Position = UDim2.new(0.389781415, 0, 2.48543286, 0)
+nextUpdate_3.Size = UDim2.new(0, 106, 0, 26)
+
+UICorner_5.Parent = nextUpdate_3
+
+nextUpdate_4.Name = "nextUpdate"
+nextUpdate_4.Parent = MainBorder
+nextUpdate_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_4.BorderColor3 = Color3.fromRGB(20, 20, 20)
+nextUpdate_4.BorderSizePixel = 0
+nextUpdate_4.Position = UDim2.new(0.571911991, 0, 2.48543286, 0)
+nextUpdate_4.Size = UDim2.new(0, 63, 0, 26)
+
+UICorner_6.Parent = nextUpdate_4
+
+UICorner_7.Parent = ScreenGui
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.543405652, 0, 0.361198723, 0)
+ScrollingFrame.Size = UDim2.new(0, 165, 0, 219)
+
+RMD.Name = "RMD"
+RMD.Parent = ScrollingFrame
+RMD.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+RMD.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RMD.BorderSizePixel = 0
+RMD.Position = UDim2.new(0.0359999985, 0, 0, 7)
+RMD.Size = UDim2.new(0, 52, 0, 42)
+RMD.Font = Enum.Font.JosefinSans
+RMD.Text = "Remove data Model"
+RMD.TextColor3 = Color3.fromRGB(194, 194, 194)
+RMD.TextScaled = true
+RMD.TextSize = 14.000
+RMD.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 4)
+UICorner_8.Parent = RMD
+
+RC.Name = "RC"
+RC.Parent = ScrollingFrame
+RC.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+RC.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RC.BorderSizePixel = 0
+RC.Position = UDim2.new(0.545454562, 0, 0, 7)
+RC.Size = UDim2.new(0, 52, 0, 42)
+RC.Font = Enum.Font.JosefinSans
+RC.Text = "Remove Char"
+RC.TextColor3 = Color3.fromRGB(194, 194, 194)
+RC.TextScaled = true
+RC.TextSize = 14.000
+RC.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 4)
+UICorner_9.Parent = RC
+
+LP.Name = "LP"
+LP.Parent = ScrollingFrame
+LP.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+LP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+LP.BorderSizePixel = 0
+LP.Position = UDim2.new(0.0360000134, 0, 0.0533967055, 7)
+LP.Size = UDim2.new(0, 52, 0, 42)
+LP.Font = Enum.Font.JosefinSans
+LP.Text = "Lag Player"
+LP.TextColor3 = Color3.fromRGB(194, 194, 194)
+LP.TextScaled = true
+LP.TextSize = 14.000
+LP.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 4)
+UICorner_10.Parent = LP
+
+STNZ.Name = "STNZ"
+STNZ.Parent = ScrollingFrame
+STNZ.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+STNZ.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STNZ.BorderSizePixel = 0
+STNZ.Position = UDim2.new(0.545000017, 0, 0.0549999997, 7)
+STNZ.Size = UDim2.new(0, 52, 0, 42)
+STNZ.Font = Enum.Font.JosefinSans
+STNZ.Text = "Send To No Zone"
+STNZ.TextColor3 = Color3.fromRGB(194, 194, 194)
+STNZ.TextScaled = true
+STNZ.TextSize = 14.000
+STNZ.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 4)
+UICorner_11.Parent = STNZ
+
+Title.Name = "Title"
+Title.Parent = ScreenGui
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.202838063, 0, 0.241324916, 0)
+Title.Size = UDim2.new(0, 95, 0, 24)
+Title.Font = Enum.Font.JosefinSans
+Title.Text = "Naeger v1"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+-- Scripts:
+
+local function MTHQRL_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local background = script.Parent.Background
+	local mainBorder = script.Parent.MainBorder
+	local textBox = mainBorder.TextBox
+	local scrollingFrame = script.Parent.ScrollingFrame
+	
+	local rmd = mainBorder.Parent.ScrollingFrame.RMD
+	local rc = mainBorder.Parent.ScrollingFrame.RC
+	local lp = mainBorder.Parent.ScrollingFrame.LP
+	local stnz = mainBorder.Parent.ScrollingFrame.STNZ
+	
+	local cancel = mainBorder.cancel
+	local close = mainBorder.close
+	
+	
+	cancel.Activated:Connect(function()
+		mainBorder:Destroy()
+		background:Destroy()
+		scrollingFrame:Destroy()
+		script:Destroy()
+	end)
+	
+	close.Activated:Connect(function()
+		local mainborderChildren = mainBorder:GetChildren()
+		scrollingFrame.Transparency = 1
+		scrollingFrame.ScrollingEnabled = false
+		scrollingFrame.ScrollBarImageTransparency = 1
+		mainBorder.Text.TextTransparency = 1
+		
+		local scrollingFramechildren = scrollingFrame:GetChildren()
+		
+		for i,v in pairs(scrollingFramechildren) do
+			v.Transparency = 1
+			v.Active = false
+		end
+		
+		background.Transparency = 1
+		for i,v in pairs(mainborderChildren) do
+			v.Transparency = 1
+			v.Active = false
+		end
+	end)
+	
+	
+	
+	rmd.Activated:Connect(function(activated)
+		local victim = game.Players:WaitForChild(textBox.Text)
+		victim:Destroy()
+	end)
+	
+	rc.Activated:Connect(function(activated)
+		local char = game.Workspace:WaitForChild(textBox.Text)
+		char:Destroy()
+	end)
+	
+	stnz.Activated:Connect(function(activated)
+		local char = game.Workspace:WaitForChild(textBox.Text)
+		local humRootpart = char:FindFirstChild("HumanoidRootPart")
+	
+		humRootpart.CFrame = CFrame.new(0,23568934598252835345,0)
+	end)
+	
+	
+	lp.Activated:Connect(function(activated)
+		local char = game.Workspace:WaitForChild(textBox.Text)
+		local humRootpart = char:FindFirstChild("HumanoidRootPart")
+	
+		while true do
+			humRootpart.CFrame = CFrame.new(0,math.huge,0)
+			wait(3)
+		end
+	end)
+	
+end
+
+coroutine.wrap(MTHQRL_fake_script)()
